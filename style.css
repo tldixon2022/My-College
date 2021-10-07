@@ -14,8 +14,32 @@ div{
 	text-align: center;
 }
 
+
+
 div.overview{
 	background-image: url(Body-1.png);
+	display: flex;
+	justify-content: space-around;
+	padding:  100px 0;
+}
+
+#pic1{
+	width:  50%;
+	border-radius: 20px;
+	margin:  0;
+	padding:  20px;
+	text-align: left;
+}
+
+.overview-info{
+	font-size: 24px;
+	border-radius: 20px;
+ 	color: #8E1342;
+ 	background-color: #FFC524;
+ 	padding: 20px 40px;
+ 	width:  40%;
+ 	border-style: solid;
+	border-width: 7px;
 }
 
 div.lefttri{
@@ -72,20 +96,7 @@ div.righttri{
 	border-width: 7px;
 }
 
-#pic1{
-	width:  50%;
-	border-radius: 20px;
-	margin:  0;
-	padding:  20px;
-	text-align: left;
-}
 
-.overview-info{
-	font-size: 24px;
- 	color: #8E1342;
- 	background-color: #FFC524;
- 	padding: 20px 40px;
-}
  
 .title{
  	font-size: 48px;
